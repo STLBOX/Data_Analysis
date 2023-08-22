@@ -1,0 +1,11 @@
+代码分为两部分：
+louvian1处理数据，将下载的数据汇总，生成2010年报这种格式的excel。
+
+louvian2建模处理，运行算法需要下载对应的包，networkx和python-louvian
+louvian2中你可以改percent变量设置你说的百分比，这里percent = 5
+
+2010年louvian结果，这种格式的excel表示为louvian算法得到的结果，这里面
+每一个机构都会对应一个community编号。
+
+这里认为统一社区中至少存在两个机构才会算作一个团体，从而得到2010年团
+体结果。
